@@ -21,7 +21,7 @@ class Paperball {
       push();
       translate(pos.x,pos.y);
       rotate(angle);
-      ellipseMode(radius);
+      EllipseMode(radius);
       fill(320)
       ellipse(0,0,this.radius,this.radius)
       pop();
