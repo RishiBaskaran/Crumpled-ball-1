@@ -25,7 +25,7 @@ function setup() {
 	
 	bin2 = new Bin(1100,610,20,100);
 	bin3 = new Bin(1175,650,168,20);
-	paperball = new Paperball(800,350,7);
+	paperball = new Paperball(800,350,20);
 }
 
 
