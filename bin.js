@@ -16,7 +16,8 @@ class Bin {
       translate(pos.x,pos.y);
       rotate(angle);
       rectMode(CENTER);
-      fill(320)
+      strokeWeight(10)
+      stroke("blue")
       rect(0, 0, this.width, this.height);
       pop();
     }
