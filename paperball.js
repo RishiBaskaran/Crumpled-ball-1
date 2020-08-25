@@ -24,7 +24,7 @@ class Paperball {
       EllipseMode(radius);
       fill(320)
       ellipse(0,0,this.radius,this.radius)
-      pop();
+      
     }
-  };
+  }
   
