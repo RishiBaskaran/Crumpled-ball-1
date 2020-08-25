@@ -1,14 +1,11 @@
 var bin1,bin2,bin3;
-var ground
+
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 var paperball
-function preload()
-{
-	ground = createSprite(700,665,1600,10)
-}
+
 
 function setup() {
 	createCanvas(1600, 700);
@@ -34,7 +31,7 @@ function draw() {
   background(0);
   
   
-  ground.shapeColor = "yellow";
+ 
   drawSprites();
   bin1.display();
   bin2.display();
