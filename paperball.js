@@ -21,10 +21,12 @@ class Paperball {
       push();
       translate(pos.x,pos.y);
       rotate(angle);
-      EllipseMode(radius);
-      fill(320)
+      ellipseMode(RADIUS);
+      strokeWeight(10)
+     stroke("red")
       ellipse(0,0,this.radius,this.radius)
-      
+       
+      pop();
     }
-  }
+  };
   
