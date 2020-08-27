@@ -38,7 +38,7 @@ function draw() {
   bin3.display();
   paperball.display();
   ground.display();
-  keyPressed();
+  
 }
 function keyPressed(){
 if(keyCode === UP_ARROW){
